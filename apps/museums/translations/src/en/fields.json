@@ -21,5 +21,21 @@
         "label": "No"
       }
     }
+  },
+  "exhibit-postcode": {
+    "label": "Postcode"
+  },
+  "exhibit-address-manual": {
+    "label": "Address"
+  },
+  "exhibit-add-another-address": {
+    "options": {
+      "yes": {
+        "label": "Yes"
+      },
+      "no": {
+        "label": "No"
+      }
+    }
   }
 }

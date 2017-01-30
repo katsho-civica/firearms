@@ -3,8 +3,9 @@
     "summary": "Museum details",
     "header": "What is the museum's name?"
   },
-  "address-loop": {
-    "header": "Placeholder pending address lookup refactor"
+  "exhibit-postcode": {
+    "header": "Where will the firearms be exhibited or stored?",
+    "intro": "You can add further addresses later, if required."
   },
   "contact-name": {
     "header": "Who should we contact about this application?"
