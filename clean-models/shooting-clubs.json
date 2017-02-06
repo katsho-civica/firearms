@@ -1,0 +1,32 @@
+{
+  "activity": "renew",
+  "reference-number": "ABC123",
+  "club-name": "Croydon Shooting Club",
+  "club-address": "49 Sydenham Road, Croydon, CR0 2EU",
+  "club-secretary-name": "Peter Smith",
+  "club-secretary-address": "49 Sydenham Road, Croydon, CR0 2EU",
+  "club-secretary-email": "test@example.com",
+  "club-secretary-phone": "01234567890",
+  "second-contact-name": "Mary Smith",
+  "second-contact-address": "49 Sydenham Road, Croydon, CR0 2EU",
+  "second-contact-email": "test@example.com",
+  "second-contact-phone": "01234567890",
+  "location-addresses": [
+    {
+      "address": "49 Sydenham Road, Croydon, CR0 2EU",
+      "address-category": [
+        "full-bore-rifles",
+        "small-bore-rifles",
+        "muzzle-loading-pistols"
+      ]
+    },
+    {
+      "address": "50 Sydenham Road, Croydon, CR0 2EU",
+      "address-category": [
+        "full-bore-rifles",
+        "small-bore-rifles",
+        "muzzle-loading-pistols"
+      ]
+    }
+  ]
+}

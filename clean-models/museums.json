@@ -1,0 +1,16 @@
+{
+  "activity": "renew",
+  "name": "museum name",
+  "exhibit-addresses": [
+    {
+      "address": "49 Sydenham Road, Croydon, CR0 2EU"
+    },
+    {
+      "address": "50 Sydenham Road, Croydon, CR0 2EU"
+    }
+  ],
+  "contact-name": "Peter Smith",
+  "contact-email": "test@example.com",
+  "contact-phone": "01234567890",
+  "contact-address": "49 Sydenham Road, Croydon, CR0 2EU"
+}
