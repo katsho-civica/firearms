@@ -25,6 +25,7 @@
   "dependencies": {
     "busboy-body-parser": "^0.3.0",
     "express": "^4.14.1",
+    "funkie": "0.0.6",
     "hof-bootstrap": "^10.3.0",
     "hof-build": "^1.0.1",
     "hof-confirm-controller": "^1.0.2",
