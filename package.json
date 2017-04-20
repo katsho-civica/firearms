@@ -19,8 +19,8 @@
     "lint": "npm run lint:app && npm run lint:acceptance",
     "lint:app": "eslint .",
     "lint:acceptance": "eslint --no-ignore -c ./node_modules/so-acceptance/.eslintrc ./apps/*/features/**/*.js",
-    "prepareapp": "hof-build",
-    "postinstall": "npm run prepareapp"
+    "build": "hof-build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "busboy-body-parser": "^0.3.0",

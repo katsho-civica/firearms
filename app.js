@@ -7,7 +7,9 @@ const config = require('./config.js');
 const mockAPIs = require('./mock-apis.js');
 const BaseController = require('./apps/common/controllers/base');
 
-const options = {
+const settings = require('./hof.settings.json');
+
+const options = Object.assign({
   views: path.resolve(__dirname, './apps/common/views'),
   fields: path.resolve(__dirname, './apps/common/fields'),
   routes: [
@@ -23,7 +25,7 @@ const options = {
     }
   }],
   start: false
-};
+}, settings);
 
 const app = bootstrap(options);
 if (config.env === 'ci' || config.env === 'development') {

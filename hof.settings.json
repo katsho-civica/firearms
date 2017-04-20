@@ -1,4 +1,5 @@
 {
+  "theme": "govuk",
   "build": {
     "translate": {
       "shared": "./apps/common/translations/src"
