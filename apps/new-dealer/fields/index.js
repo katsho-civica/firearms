@@ -507,7 +507,7 @@ module.exports = {
     mixin: 'select',
     validate: 'required',
     className: ['typeahead', 'js-hidden'],
-    options: [''].concat(require('../../../assets/countries').allCountries)
+    options: [{ value: '', label: 'Select...' }].concat(require('../../../assets/countries').allCountries.map(value => ({ label: value, value })))
   },
   'first-authority-holders-nationality-multi': {
     mixin: 'checkbox',
