@@ -12,6 +12,7 @@ helpers.documentReady(formFocus);
 
 document.querySelectorAll('.typeahead').forEach(elm => {
   ac.enhanceSelectElement({
-    selectElement: elm
+    selectElement: elm,
+    defaultValue: ''
   });
 });

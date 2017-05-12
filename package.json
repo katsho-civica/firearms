@@ -23,7 +23,7 @@
     "postinstall": "npm run prepareapp"
   },
   "dependencies": {
-    "accessible-autocomplete": "^1.0.1",
+    "accessible-autocomplete": "^1.0.2",
     "busboy-body-parser": "^0.3.0",
     "express": "^4.14.1",
     "hof-behaviour-emailer": "^2.0.0",
