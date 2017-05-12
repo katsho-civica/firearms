@@ -1,0 +1,6 @@
+extends:
+  - '../../.eslintrc'
+  - 'homeoffice/config/testing'
+
+env:
+  browser: true
