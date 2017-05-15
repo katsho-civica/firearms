@@ -6,6 +6,8 @@ function notBothOptions(values) {
   values = _.castArray(values);
   return !(values.length > 1 && values.indexOf('unspecified') > -1);
 }
+const countries = require('../../../assets/countries').allCountries;
+const countryOptions = [{ value: '', label: 'Select...' }].concat(countries.map(value => ({ label: value, value })));
 
 module.exports = {
   'authority-number': {
@@ -507,7 +509,7 @@ module.exports = {
     mixin: 'select',
     validate: 'required',
     className: ['typeahead', 'js-hidden'],
-    options: [{ value: '', label: 'Select...' }].concat(require('../../../assets/countries').allCountries.map(value => ({ label: value, value })))
+    options: countryOptions
   },
   'first-authority-holders-nationality-multi': {
     mixin: 'checkbox',
@@ -517,11 +519,11 @@ module.exports = {
   },
   'first-authority-holders-nationality-second': {
     className: ['typeahead', 'js-hidden'],
-    options: [''].concat(require('../../../assets/countries').allCountries)
+    options: countryOptions
   },
   'first-authority-holders-nationality-third': {
     className: ['typeahead', 'js-hidden'],
-    options: [''].concat(require('../../../assets/countries').allCountries)
+    options: countryOptions
   },
   'first-authority-holders-postcode': {
     mixin: 'input-text-code',
@@ -547,7 +549,7 @@ module.exports = {
     mixin: 'select',
     validate: 'required',
     className: ['typeahead', 'js-hidden'],
-    options: [''].concat(require('../../../assets/countries').allCountries)
+    options: countryOptions
   },
   'second-authority-holders-nationality-multi': {
     mixin: 'checkbox',
@@ -557,11 +559,11 @@ module.exports = {
   },
   'second-authority-holders-nationality-second': {
     className: ['typeahead', 'js-hidden'],
-    options: [''].concat(require('../../../assets/countries').allCountries)
+    options: countryOptions
   },
   'second-authority-holders-nationality-third': {
     className: ['typeahead', 'js-hidden'],
-    options: [''].concat(require('../../../assets/countries').allCountries)
+    options: countryOptions
   },
   'second-authority-holders-postcode': {
     mixin: 'input-text-code',
